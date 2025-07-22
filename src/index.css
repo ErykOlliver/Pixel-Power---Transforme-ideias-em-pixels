@@ -1,15 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import "tailwindcss";
 
-@font-face {
-    font-family: 'Inria-Regular';
-    src: url('../src/assets/components/Fonts/Inria_Sans/InriaSans-Regular.ttf') format('opentype');
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inria-Bold';
-    src: url('../src/assets/components/Fonts/Inria_Sans/InriaSans-Bold.ttf') format('opentype');
-    font-style: normal;
-    font-display: swap;
+@theme {
+    /* FONTS */
+    --font-Inter: "Inter", sans-serif;
+    --font-Inria: "Inria Sans", sans-serif;
+    /* COLORS */
+    --color-Sunset-Blaze: #F96C00;
+    --color-Golden-Ember: #F99C39;
 }
