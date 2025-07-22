@@ -1,12 +1,14 @@
 import './App.css'
-import Initial from './assets/screens/Initial/initial'
+import Initial from './assets/screens/initial'
+import AboutCurse from './assets/screens/AboutCurse'
 
 function App() {
 
   return (
-    <body>
-      <div id='container'>
+    <body className='w-screen h-screen flex justify-center items-center overflow-x-hidden'>
+      <div className='w-full h-screen'>
         <Initial />
+        <AboutCurse />
       </div>
     </body>
   )
