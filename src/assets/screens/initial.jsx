@@ -1,3 +1,4 @@
+import { HugeiconsIcon } from '@hugeicons/react'
 import '../../App.css'
 import Logo from '../img/PixelPowerLogo.png'
 
@@ -12,7 +13,9 @@ export default function Initial() {
                         <h1 className='font-extrabold text-5xl font-Inter'>DO ZERO AO AVANÇADO</h1>
                         <p className='text-3xl w-fit font-Inria'>Tenha todos os conhecimentos básicos e avançados na palma de sua mão</p>
                     </div>
-                    <a href='#AboutCurse' className='hover:cursor-pointer flex items-center font-Inria justify-center w-full h-20 border-4 border-black font-bold shadow-[0_8px] shadow-black rounded-xl text-3xl bg-gradient-to-l from-Sunset-Blaze to-Golden-Ember text-white'>Quero saber mais</a>
+                    <a href='#AboutCurse' className='hover:cursor-pointer flex items-center font-Inria justify-center w-full h-20 border-4 border-black font-bold shadow-[0_8px] shadow-black rounded-xl text-3xl bg-gradient-to-l from-Sunset-Blaze to-Golden-Ember text-white'>
+                        Quero saber mais
+                    </a>
                 </div>
             </div>
         </section>
