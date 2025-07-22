@@ -6,7 +6,7 @@ function App() {
 
   return (
     <body className='w-screen h-screen flex justify-center items-center overflow-x-hidden'>
-      <div className='w-full h-screen'>
+      <div className='h-screen'>
         <Initial />
         <AboutCurse />
       </div>

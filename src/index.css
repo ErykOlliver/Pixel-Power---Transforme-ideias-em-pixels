@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Inria-Regular';
+    src: url('../src/assets/components/Fonts/Inria_Sans/InriaSans-Regular.ttf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inria-Bold';
+    src: url('../src/assets/components/Fonts/Inria_Sans/InriaSans-Bold.ttf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
