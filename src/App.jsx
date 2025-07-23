@@ -5,6 +5,7 @@ import BuyNow from './assets/screens/BuyNow'
 import Modules from './assets/screens/modules'
 import CurseForMe from './assets/screens/CurseForMe'
 import GenericPage from './assets/screens/GenericPage'
+import NotConvinced from './assets/screens/NotConvinced'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Modules />
         <CurseForMe />
         <GenericPage />
+        <NotConvinced />
         <BuyNow />
       </div>
     </body>

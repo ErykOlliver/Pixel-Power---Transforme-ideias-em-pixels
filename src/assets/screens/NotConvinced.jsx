@@ -1,12 +1,17 @@
 import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
+import BaseBenefit from '../components/Others/Pop/BaseBenefit.jsx'
 
 export default function NotConvinced() {
     return (
-        <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
+        <section className='flex justify-center h-screen w-screen items-center bg-Black-False'>
             <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>
-                <h1 className='text-5xl font-Inter font-bold'>o que você vai aprender no curso:</h1>
+                <p className='font-Inter text-3xl font-light'>
+                    O Pixel Power vai além das aulas: oferece suporte, comunidade e recursos para você <br />
+                    evoluir com liberdade e consistência, do básico ao avançado.
+                </p>
+                <h1 className='text-5xl font-Inter font-bold '>Benefícios ao se inscrever:</h1>
                 <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
                     <BaseBenefit
                         Text="Aprenda os fundamentos da pixel art: resolução, paleta, grid e leitura visual. A base para qualquer estilo."
