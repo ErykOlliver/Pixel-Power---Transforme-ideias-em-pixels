@@ -2,6 +2,7 @@ import './App.css'
 import Initial from './assets/screens/initial'
 import AboutCurse from './assets/screens/AboutCurse'
 import BuyNow from './assets/screens/BuyNow'
+import Modules from './assets/screens/modules'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <div className='h-screen'>
         <Initial />
         <AboutCurse />
+        <Modules/>
         <BuyNow />
       </div>
     </body>
