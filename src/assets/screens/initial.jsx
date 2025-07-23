@@ -1,6 +1,7 @@
 import { HugeiconsIcon } from '@hugeicons/react'
 import '../../App.css'
 import Logo from '../img/PixelPowerLogo.png'
+import { ArrowAllDirectionIcon, ArrowDown01Icon, ArrowDown02Icon, CheckListFreeIcons } from '@hugeicons/core-free-icons'
 
 export default function Initial() {
     return (
@@ -15,6 +16,7 @@ export default function Initial() {
                     </div>
                     <a href='#AboutCurse' className='hover:cursor-pointer flex items-center font-Inria justify-center w-full h-20 border-4 border-black font-bold shadow-[0_8px] shadow-black rounded-xl text-3xl bg-gradient-to-l from-Sunset-Blaze to-Golden-Ember text-white'>
                         Quero saber mais
+                        <HugeiconsIcon icon={ArrowDown02Icon} size={34} />
                     </a>
                 </div>
             </div>
