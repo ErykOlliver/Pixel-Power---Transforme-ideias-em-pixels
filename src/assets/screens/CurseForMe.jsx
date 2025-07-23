@@ -1,6 +1,7 @@
-import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
+import { BrushIcon, Ds3ToolIcon, FilePasteIcon, FlyingHumanIcon, GitbookIcon, Grid02Icon, GridIcon, Joystick01Icon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, PencilEdit01Icon, QuillWrite01Icon, RubiksCubeIcon, ToolsIcon, TShirtIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
+import BaseResp from '../components/Others/Pop/BaseResp.jsx'
 
 export default function CurseForMe() {
     return (
@@ -12,7 +13,34 @@ export default function CurseForMe() {
                     Não importa seu nível — aqui você encontra direção e prática para evoluir do seu jeito.
                 </p>
                 <div className="flex flex-wrap gap-9 justify-center w-full h-full items-center">
-                    
+                    <BaseResp
+                        Text='Futuros criadores de jogos'
+                        Icon={<HugeiconsIcon icon={Joystick01Icon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text='Artistas digitais iniciantes'
+                        Icon={<HugeiconsIcon icon={PencilEdit01Icon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text=' Desenvolvedores indie'
+                        Icon={<HugeiconsIcon icon={Ds3ToolIcon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text='Criativos autorais'
+                        Icon={<HugeiconsIcon icon={QuillWrite01Icon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text='Estudantes e curiosos'
+                        Icon={<HugeiconsIcon icon={GitbookIcon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text='Profissionais que querem migrar'
+                        Icon={<HugeiconsIcon icon={FilePasteIcon} color={Power_Colors.White90} />}
+                    />
+                    <BaseResp
+                        Text='Quem busca estilo próprio'
+                        Icon={<HugeiconsIcon icon={TShirtIcon} color={Power_Colors.White90} />}
+                    />
                 </div>
             </div>
         </section>
