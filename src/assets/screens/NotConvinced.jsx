@@ -1,4 +1,4 @@
-import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
+import { BrushIcon, Certificate01Icon, DiscordFreeIcons, DiscordIcon, FlyingHumanIcon, FolderUploadIcon, Grid02Icon, GridIcon, Infinity01Icon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, PlayIcon, RubiksCubeIcon, SearchFocusIcon, TargetIcon, TimerIcon, ToolsIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
 import BaseBenefit from '../components/Others/Pop/BaseBenefit.jsx'
@@ -14,36 +14,44 @@ export default function NotConvinced() {
                 <h1 className='text-5xl font-Inter font-bold text-White-90'>Benefícios ao se inscrever:</h1>
                 <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
                     <BaseBenefit
-                        Text="Aprenda os fundamentos da pixel art: resolução, paleta, grid e leitura visual. A base para qualquer estilo."
-                        Icon={<HugeiconsIcon icon={GridIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Certificado de Conclusão"
+                        Text="Ao finalizar o curso, você recebe um certificado exclusivo para fortalecer seu portfólio e dar aquele up no currículo."
+                        Icon={<HugeiconsIcon icon={Certificate01Icon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Construa formas legíveis e impactantes. Aprenda a criar personagens e objetos com presença visual."
-                        Icon={<HugeiconsIcon icon={RubiksCubeIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Acesso Vitalício"
+                        Text="Compre uma vez e tenha acesso ao conteúdo para sempre — incluindo futuras atualizações sem custo adicional."
+                        Icon={<HugeiconsIcon icon={Infinity01Icon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
+                        Title="Certificado de Conclusão"
                         Text="Entenda como cores e luz criam profundidade, contraste e estilo em pixel art com poucos tons."
-                        Icon={<HugeiconsIcon icon={PaintBoardIcon} size={125} color={Power_Colors.White90} />}
+                        Icon={<HugeiconsIcon icon={DiscordIcon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Crie personagens com expressão e identidade mesmo com poucos pixels. Poses, anatomia e estilo."
-                        Icon={<HugeiconsIcon icon={FlyingHumanIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Comunidade no Discord"
+                        Text="Entre para uma comunidade ativa de artistas e desenvolvedores, tire dúvidas, compartilhe progresso e receba feedbacks."
+                        Icon={<HugeiconsIcon icon={FolderUploadIcon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Desenvolva cenários e tiles com coesão. Trabalhe repetição, perspectiva e ambientação visual."
-                        Icon={<HugeiconsIcon icon={MapsSearchIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Atualizações Garantidas"
+                        Text="Sempre que o curso for atualizado, você recebe as novas aulas automaticamente — sem pagar mais por isso."
+                        Icon={<HugeiconsIcon icon={PlayIcon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Desenhe HUDs, menus, ícones e objetos com clareza visual e linguagem funcional para jogos."
-                        Icon={<HugeiconsIcon icon={ToolsIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Conteúdo Prático e Aplicável"
+                        Text="Nada de enrolação: aulas focadas no que realmente importa, com exercícios e projetos que ajudam você a evoluir de verdade."
+                        Icon={<HugeiconsIcon icon={TimerIcon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Aprenda a dar vida aos pixels com animações simples e impactantes: movimentos, loops e efeitos."
-                        Icon={<HugeiconsIcon icon={KeyframeAddIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Aprenda no seu ritmo"
+                        Text="Sem pressa nem pressão — estude quando e onde quiser, adaptando o curso à sua rotina."
+                        Icon={<HugeiconsIcon icon={SearchFocusIcon} size={100} color={Power_Colors.White90} />}
                     />
                     <BaseBenefit
-                        Text="Explore seu estilo e monte um portfólio pronto para o mercado, jogos, ou projetos autorais."
-                        Icon={<HugeiconsIcon icon={BrushIcon} size={125} color={Power_Colors.White90} />}
+                        Title="Foco em portfólio e carreira"
+                        Text="O curso foi pensado pra ajudar você a montar um portfólio sólido, com foco no mercado e em oportunidades reais."
+                        Icon={<HugeiconsIcon icon={TargetIcon} size={100} color={Power_Colors.White90} />}
                     />
                 </div>
             </div>
