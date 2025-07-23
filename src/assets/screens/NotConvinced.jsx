@@ -5,14 +5,14 @@ import BaseBenefit from '../components/Others/Pop/BaseBenefit.jsx'
 
 export default function NotConvinced() {
     return (
-        <section className='flex justify-center h-screen w-screen items-center bg-Black-False'>
-            <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>
-                <p className='font-Inter text-3xl font-light text-White-90 pt-6 text-center'>
+        <section className='flex justify-center h-fit w-screen items-center bg-Black-False'>
+            <div className='flex flex-col items-center justify-between h-full w-[90%] gap-2.5 '>
+                <p className='font-Inria text-3xl font-light text-White-90 py-6 text-center'>
                     O Pixel Power vai além das aulas: oferece suporte, comunidade e recursos para você <br />
                     evoluir com liberdade e consistência, do básico ao avançado.
                 </p>
-                <h1 className='text-5xl font-Inter font-bold text-White-90'>Benefícios ao se inscrever:</h1>
-                <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
+                <h1 className='text-5xl font-Inter font-bold p text-White-90 py-3.5'>Benefícios ao se inscrever:</h1>
+                <div className="grid grid-cols-[290px_290px_290px_290px] py-2 gap-9 justify-center w-full h-full items-center">
                     <BaseBenefit
                         Title="Certificado de Conclusão"
                         Text="Ao finalizar o curso, você recebe um certificado exclusivo para fortalecer seu portfólio e dar aquele up no currículo."
@@ -54,6 +54,10 @@ export default function NotConvinced() {
                         Icon={<HugeiconsIcon icon={TargetIcon} size={100} color={Power_Colors.White90} />}
                     />
                 </div>
+                <h1 className='text-5xl font-Inter font-bold text-White-90 py-2.5'>Tudo que você precisa, no seu ritmo.</h1>
+                <p className='font-Inria text-3xl font-light text-White-90 py-2.5 text-center'>
+                    Com conteúdo prático e uma base sólida, você aprende com liberdade e tem onde crescer. Simples assim.
+                </p>
             </div>
         </section>
     )
