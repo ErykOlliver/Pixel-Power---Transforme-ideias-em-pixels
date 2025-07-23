@@ -8,7 +8,7 @@ export default function Modules() {
         <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>
                 <h1 className='text-5xl font-Inter font-bold'>o que você vai aprender no curso:</h1>
-                <div className="flex flex-wrap gap-9 justify-center w-full h-full items-center">
+                <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
                     <BaseModule
                         Text="Aprenda os fundamentos da pixel art: resolução, paleta, grid e leitura visual. A base para qualquer estilo."
                         Icon={<HugeiconsIcon icon={GridIcon} size={125} color={Power_Colors.White90} />}
