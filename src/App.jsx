@@ -3,6 +3,7 @@ import Initial from './assets/screens/initial'
 import AboutCurse from './assets/screens/AboutCurse'
 import BuyNow from './assets/screens/BuyNow'
 import Modules from './assets/screens/modules'
+import CurseForMe from './assets/screens/CurseForMe'
 
 function App() {
 
@@ -11,8 +12,9 @@ function App() {
       <div className='h-screen'>
         <Initial />
         <AboutCurse />
-        <Modules/>
+        <Modules />
         <BuyNow />
+        <CurseForMe />
       </div>
     </body>
   )
