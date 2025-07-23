@@ -7,11 +7,11 @@ export default function NotConvinced() {
     return (
         <section className='flex justify-center h-screen w-screen items-center bg-Black-False'>
             <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>
-                <p className='font-Inter text-3xl font-light'>
+                <p className='font-Inter text-3xl font-light text-White-90 pt-6 text-center'>
                     O Pixel Power vai além das aulas: oferece suporte, comunidade e recursos para você <br />
                     evoluir com liberdade e consistência, do básico ao avançado.
                 </p>
-                <h1 className='text-5xl font-Inter font-bold '>Benefícios ao se inscrever:</h1>
+                <h1 className='text-5xl font-Inter font-bold text-White-90'>Benefícios ao se inscrever:</h1>
                 <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
                     <BaseBenefit
                         Text="Aprenda os fundamentos da pixel art: resolução, paleta, grid e leitura visual. A base para qualquer estilo."
