@@ -29,19 +29,21 @@ export default function BuyNow() {
                         <button className='shadow-[0_8px] shadow-black h-24 w-xl bg-gradient-to-r from-Life-Green to-Green-Azuled text-5xl font-bold font-Inter text-white rounded-2xl border-4 border-black'>
                             Quero minha vaga
                         </button>
-                        <img src={Payments} alt='Payments' className='border' />
+                        <img src={Payments} alt='Payments' className='' />
                     </div>
                 </section>
-                <article className='flex items-start shadow-[0_4px_3px_-3px] justify-center bg-gradient-to-r gap-2.5 from-Etern-Blue to-Cysney pt-6 pb-6 pl-5 pr-5 rounded-3xl'>
-                    <img src={SevenDays} alt='SevenDays' className='w-52' />
-                    <article className=' flex flex-col justify-center h-full gap-2.5'>
-                        <h1 className='text-4xl w-full font-Inter font-extrabold  text-white'>Garantia incondicional de 7 dias!</h1>
-                        <p className='text-2xl w-full font-Inria text-white h-fit'>
-                            Sua satisfação é a nossa prioridade. Por isso, ao se inscrever no curso, você tem <span className='text-Sunset-Blaze font-bold'> 7 dias para testar sem risco algum</span >.
-                            Se por qualquer motivo você achar que o curso não é pra você, é só enviar uma mensagem dentro desse prazo e <span className='text-Sunset-Blaze font-bold'> devolveremos 100% do seu dinheiro </span>, sem perguntas, sem complicações.
-                            <span className='text-Sunset-Blaze font-bold'> Você entra, experimenta, e decide com total segurança</span>.
-                        </p>
-                    </article>
+                <article className='w-full h-52 shadow-[0_4px_3px_-3px] bg-gradient-to-r from-Etern-Blue to-Cysney pt-6 pb-6 pl-5 pr-5 rounded-3xl'>
+                    <div className='items-start flex w-full h-full gap-2.5 justify-center'>
+                        <img src={SevenDays} alt='SevenDays' className='w-fit h-full' />
+                        <article className=' flex flex-col justify-center border-s-Green-Azuled h-full gap-2.5 '>
+                            <h1 className='text-4xl w-full font-Inter font-extrabold text-white border-b pb-1'>Garantia incondicional de 7 dias!</h1>
+                            <p className='text-2xl w-full font-Inria text-white h-full'>
+                                Sua satisfação é a nossa prioridade. Por isso, ao se inscrever no curso, você tem <span className='text-Sunset-Blaze font-bold'> 7 dias para testar sem risco algum</span >.
+                                Se por qualquer motivo você achar que o curso não é pra você, é só enviar uma mensagem dentro desse prazo e <span className='text-Sunset-Blaze font-bold'> devolveremos 100% do seu dinheiro </span>, sem perguntas, sem complicações.
+                                <span className='text-Sunset-Blaze font-bold'> Você entra, experimenta, e decide com total segurança</span>.
+                            </p>
+                        </article>
+                    </div>
                 </article>
             </div>
         </section>
