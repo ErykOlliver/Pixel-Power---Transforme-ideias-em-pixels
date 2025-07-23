@@ -5,14 +5,14 @@ import BaseResp from '../components/Others/Pop/BaseResp.jsx'
 
 export default function CurseForMe() {
     return (
-        <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
+        <section className='flex justify-center h-fit w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center gap-28 h-full w-[90%] pt-80'>
                 <h1 className='text-5xl font-Inter font-bold'>“Sera que esse curso é para mim?”</h1>
                 <p className='font-Inria font-light text-2xl w-full text-center'>
                     Se você quer aprender pixel art com técnica, propósito e liberdade criativa, esse curso foi feito para você. <br />
                     Não importa seu nível — aqui você encontra direção e prática para evoluir do seu jeito.
                 </p>
-                <div className='flex flex-col w-full h-fit pt-14 pb-14 gap-5'>
+                <div className='flex flex-col w-full h-fit ptF-14 pb-14 gap-5'>
                     <div className="flex gap-5 justify-center">
                         <BaseResp
                             Text='Futuros criadores de jogos'

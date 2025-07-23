@@ -1,5 +1,3 @@
-import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
-
 export default function GenericPage() {
     return (
         <section className='flex justify-center h-screen w-screen items-center bg-White-80'>

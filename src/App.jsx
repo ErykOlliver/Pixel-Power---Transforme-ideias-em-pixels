@@ -4,6 +4,7 @@ import AboutCurse from './assets/screens/AboutCurse'
 import BuyNow from './assets/screens/BuyNow'
 import Modules from './assets/screens/modules'
 import CurseForMe from './assets/screens/CurseForMe'
+import GenericPage from './assets/screens/GenericPage'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
         <Initial />
         <AboutCurse />
         <Modules />
-        <BuyNow />
         <CurseForMe />
+        <GenericPage />
+        <BuyNow />
       </div>
     </body>
   )
