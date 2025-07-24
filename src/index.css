@@ -17,20 +17,20 @@
     --color-Etern-Blue: #0D335B;
     --color-Cysney: #1C6CC1;
     /* ANIMATIONS */
-    --animate-OuTSide: OuTSide 1.5s ease-in-out infinite;
+    --animate-InitialBTN: InitialBTN 1s ease-in-out infinite
 }
 
 
 
-@keyframes OuTSide {
+@keyframes InitialBTN {
 
     0%,
     100% {
-        transform: rotate(-1deg);
+        background: linear-gradient(var(--color-Golden-Ember), var(--color-Sunset-Blaze));
     }
 
-    50% {
-        transform: rotate(1deg);
+    100% {
+        background: linear-gradient(var(--color-Sunset-Blaze), var(--color-Golden-Ember));
     }
 
 }
