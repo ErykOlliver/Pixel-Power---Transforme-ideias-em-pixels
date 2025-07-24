@@ -4,7 +4,7 @@ export default function Faq() {
     return (
         <section className='flex justify-center h-fit w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center py-52 justify-center h-full w-[90%] gap-5 '>
-                <h1 className="text-5xl font-bold font-Inter">Perguntas frequentes</h1>
+                <h1 className="text-5xl font-bold font-Inter animate-bounce">Perguntas frequentes</h1>
                 <div className="w-[90%] h-fit flex flex-col gap-5 ">
                     <BaseFaq
                         question="O curso é mesmo para iniciantes?"

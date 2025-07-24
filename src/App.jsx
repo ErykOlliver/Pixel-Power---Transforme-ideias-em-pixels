@@ -8,6 +8,7 @@ import GenericPage from './assets/screens/GenericPage'
 import NotConvinced from './assets/screens/NotConvinced'
 import TeachPage from './assets/screens/TeachPage'
 import Faq from './assets/screens/Faq'
+import Footer from './assets/screens/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <TeachPage />
         <BuyNow />
         <Faq />
+        <Footer />
       </div>
     </body>
   )

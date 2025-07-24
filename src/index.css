@@ -16,4 +16,21 @@
     --color-Green-Azuled: #12982B;
     --color-Etern-Blue: #0D335B;
     --color-Cysney: #1C6CC1;
+    /* ANIMATIONS */
+    --animate-OuTSide: OuTSide 1.5s ease-in-out infinite;
+}
+
+
+
+@keyframes OuTSide {
+
+    0%,
+    100% {
+        transform: rotate(-1deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+
 }
