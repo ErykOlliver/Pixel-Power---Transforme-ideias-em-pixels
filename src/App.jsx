@@ -7,6 +7,7 @@ import CurseForMe from './assets/screens/CurseForMe'
 import GenericPage from './assets/screens/GenericPage'
 import NotConvinced from './assets/screens/NotConvinced'
 import TeachPage from './assets/screens/TeachPage'
+import Faq from './assets/screens/Faq'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <NotConvinced />
         <TeachPage />
         <BuyNow />
+        <Faq />
       </div>
     </body>
   )
