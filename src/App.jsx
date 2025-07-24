@@ -6,6 +6,7 @@ import Modules from './assets/screens/modules'
 import CurseForMe from './assets/screens/CurseForMe'
 import GenericPage from './assets/screens/GenericPage'
 import NotConvinced from './assets/screens/NotConvinced'
+import TeachPage from './assets/screens/TeachPage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <CurseForMe />
         <GenericPage />
         <NotConvinced />
+        <TeachPage />
         <BuyNow />
       </div>
     </body>
