@@ -1,7 +1,7 @@
 import { BrushIcon, Certificate01Icon, DiscordFreeIcons, DiscordIcon, FlyingHumanIcon, FolderUploadIcon, Grid02Icon, GridIcon, Infinity01Icon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, PlayIcon, RubiksCubeIcon, SearchFocusIcon, TargetIcon, TimerIcon, ToolsIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
-import BaseBenefit from '../components/Others/Pop/BaseBenefit.jsx'
+import BaseBenefit from '../components/Others/Base/BaseBenefit.jsx'
 
 export default function NotConvinced() {
     return (

@@ -1,5 +1,5 @@
 import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
-import BaseModule from '../components/Others/Pop/BaseModules.jsx'
+import BaseModule from '../components/Others/Base/BaseModules.jsx'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
 

@@ -1,5 +1,5 @@
 import '../../App.css'
-import Pop from '../components/Others/Pop/Pop.jsx'
+import Pop from '../components/Others/Base/Pop.jsx'
 import Logo from '../img/PixelPowerLogo.png'
 import Payments from '../img/formas-pagamento-01-300x25 1.png'
 import SevenDays from '../img/sevenDays.png'

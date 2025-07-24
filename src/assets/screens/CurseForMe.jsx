@@ -1,7 +1,7 @@
 import { BrushIcon, Ds3ToolIcon, FilePasteIcon, FlyingHumanIcon, GitbookIcon, Grid02Icon, GridIcon, Joystick01Icon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, PencilEdit01Icon, QuillWrite01Icon, RubiksCubeIcon, ToolsIcon, TShirtIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
-import BaseResp from '../components/Others/Pop/BaseResp.jsx'
+import BaseResp from '../components/Others/Base/BaseResp.jsx'
 
 export default function CurseForMe() {
     return (
