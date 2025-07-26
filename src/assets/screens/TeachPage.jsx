@@ -6,8 +6,8 @@ export default function TeachPage() {
         <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
             <div className='flex items-center py-24 justify-between h-full w-[90%] gap-2.5 '>
                 <div className='flex gap-2.5 flex-col w-full h-full justify-center items-start'>
-                    <h1 className='text-5xl font-Inter font-bold '>Quem vai te ensinar</h1>
-                    <p className="flex flex-col font-Inria gap-2.5 text-2xl text-wrap max-w-3xl">
+                    <h1 className='TeachPageTitle text-5xl font-Inter font-bold '>Quem vai te ensinar</h1>
+                    <p className="TeachPageText flex flex-col font-Inria gap-2.5 text-2xl text-wrap max-w-3xl">
                         <p className="text-justify">
                             Oi! Meu nome é <span className="text-Sunset-Blaze font-bold">Lucas Almeida </span>, sou artista digital e
                             especialista em pixel art há mais de 8 anos.
@@ -33,7 +33,7 @@ export default function TeachPage() {
                         </p>
                     </p>
                 </div>
-                <div className=' w-full h-full justify-end items-end flex'>
+                <div className='LucasPhoto w-full h-full justify-end items-end flex'>
                     <img src={Lucas} alt='Lucas' className='w-md h-md ' />
                 </div>
             </div>

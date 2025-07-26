@@ -26,7 +26,7 @@ export default function BuyNow() {
                         <h1 className='text-6xl font-Inter font-bold text-Sunset-Blaze' >12x de R$ 29,64</h1>
                         <p className='text-5xl font-Inter font-medium'>ou</p>
                         <p className='text-6xl font-bold font-Inter text-Sunset-Blaze '>R$ 297 à vista</p>
-                        <a className='shadow-[0_8px] hover:cursor-pointer justify-center flex items-center shadow-black h-24 w-xl bg-gradient-to-r from-Life-Green to-Green-Azuled text-5xl font-bold font-Inter text-white rounded-2xl border-4 border-black'>
+                        <a className='hover:bg-gradient-to-r hover:from-Black-False hover:to-black transition-colors duration-100 ease-in-out shadow-[0_8px] hover:cursor-pointer justify-center flex items-center shadow-black h-24 w-xl bg-gradient-to-r from-Life-Green to-Green-Azuled text-5xl font-bold font-Inter text-white rounded-2xl border-4 border-black'>
                             Quero minha vaga
                         </a>
                         <img src={Payments} alt='Payments' className='' />

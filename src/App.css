@@ -5,6 +5,19 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-Black-False)
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-Sunset-Blaze);
+}
+
 
 #bgInitial {
   background-image: url('../src/assets/img/initial-background.png');
@@ -13,7 +26,6 @@
   background-size: cover;
 }
 
-/* About Curse Page */
 @keyframes TextEntry {
   from {
     opacity: 0;
@@ -40,7 +52,6 @@
 
 }
 
-/* Modules Page */
 @keyframes ModulesTitleEntry {
   from {
     opacity: 0;
@@ -84,6 +95,51 @@
 
 }
 
+@keyframes LucasPhoto {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translate(500px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translate(0);
+  }
+
+}
+
+@keyframes TeachPageText {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translate(-300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translate(0);
+  }
+
+}
+
+@keyframes TeachPageTitle {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translate(-800px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translate(0);
+  }
+
+}
+
 @keyframes CurseForMeParagraph {
   from {
     opacity: 0;
@@ -95,6 +151,75 @@
     opacity: 1;
     transform: scale(1);
     transform: translate(0);
+  }
+
+}
+
+@keyframes RespElement {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translate(0px, 500px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translate(0, 0);
+  }
+
+}
+
+@keyframes CurseForMeFinalText {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+@keyframes BenefitElement {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+    transform: rotate3d(0, 1, 1, 56deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: rotate3d(0, 0, 0);
+  }
+
+}
+
+@keyframes GenericText {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}
+
+@keyframes NotConvincedTitle {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 
 }
@@ -118,6 +243,18 @@
   animation-range: entry 0% cover 40%;
 }
 
+.RespElement {
+  animation: RespElement linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.CurseForMeFinalText {
+  animation: CurseForMeFinalText linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
 .Book {
   animation: BookEntry linear;
   animation-timeline: view();
@@ -132,6 +269,45 @@
 
 .ModuleElement {
   animation: ModuleElementEntry linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.BenefitElement {
+  animation: BenefitElement linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+}
+
+.GenericText {
+  animation: GenericText linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+}
+
+.NotConvincedTitle {
+  animation: NotConvincedTitle linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+}
+
+.LucasPhoto {
+  animation: LucasPhoto linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.TeachPageTitle {
+  animation: TeachPageTitle linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.TeachPageText {
+  animation: TeachPageText linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }

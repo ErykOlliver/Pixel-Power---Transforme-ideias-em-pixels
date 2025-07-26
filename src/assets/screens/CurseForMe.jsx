@@ -46,7 +46,7 @@ export default function CurseForMe() {
                         />
                     </div>
                 </div>
-                <p className='font-Inria pb-2.5 pt-2.5 font-light text-2xl w-full text-center'>
+                <p className='GenericText font-Inria pb-2.5 pt-2.5 font-light text-2xl w-full text-center'>
                     <span className='font-bold'> Se você se viu em algum desses perfis, não perca tempo </span>. O Pixel Power pode ser o passo que faltava <br />
                     pra transformar suas ideias em projetos reais.
                 </p>
