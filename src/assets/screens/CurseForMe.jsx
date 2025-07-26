@@ -7,8 +7,8 @@ export default function CurseForMe() {
     return (
         <section className='flex justify-center h-fit w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center gap-28 h-full w-[90%] pt-80'>
-                <h1 className='text-5xl font-Inter font-bold'>“Sera que esse curso é para mim?”</h1>
-                <p className='font-Inria font-light text-2xl w-full text-center'>
+                <h1 className='CurseForMeTitle text-5xl font-Inter font-bold'>“Sera que esse curso é para mim?”</h1>
+                <p className='CurseForMeParagraph font-Inria font-light text-2xl w-full text-center'>
                     Se você quer aprender pixel art com técnica, propósito e liberdade criativa, esse curso foi feito para você. <br />
                     Não importa seu nível — aqui você encontra direção e prática para evoluir do seu jeito.
                 </p>
