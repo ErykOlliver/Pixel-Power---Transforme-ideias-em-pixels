@@ -3,34 +3,22 @@
 @import "tailwindcss";
 
 @theme {
-    /* FONTS */
-    --font-Inter: "Inter", sans-serif;
-    --font-Inria: "Inria Sans", sans-serif;
-    /* COLORS */
-    --color-Sunset-Blaze: #F96C00;
-    --color-Golden-Ember: #F99C39;
-    --color-White-90: #F9F9F9;
-    --color-White-80: #F3F3F3;
-    --color-Black-False: #242425;
-    --color-Life-Green: #4FE047;
-    --color-Green-Azuled: #12982B;
-    --color-Etern-Blue: #0D335B;
-    --color-Cysney: #1C6CC1;
-    /* ANIMATIONS */
-    --animate-InitialBTN: InitialBTN 1s ease-in-out infinite
+  /* FONTS */
+  --font-Inter: "Inter", sans-serif;
+  --font-Inria: "Inria Sans", sans-serif;
+  /* COLORS */
+  --color-Sunset-Blaze: #F96C00;
+  --color-Golden-Ember: #F99C39;
+  --color-White-90: #F9F9F9;
+  --color-White-80: #F3F3F3;
+  --color-Black-False: #242425;
+  --color-Life-Green: #4FE047;
+  --color-Green-Azuled: #12982B;
+  --color-Etern-Blue: #0D335B;
+  --color-Cysney: #1C6CC1;
+  /* ANIMATIONS */
+  --animate-InitialBTN: InitialBTN 1s ease-in-out infinite;
 }
 
 
 
-@keyframes InitialBTN {
-
-    0%,
-    100% {
-        background: linear-gradient(var(--color-Golden-Ember), var(--color-Sunset-Blaze));
-    }
-
-    100% {
-        background: linear-gradient(var(--color-Sunset-Blaze), var(--color-Golden-Ember));
-    }
-
-}

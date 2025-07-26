@@ -5,8 +5,8 @@ export default function AboutCurse() {
     return (
         <section id='AboutCurse' className='flex justify-center h-screen w-screen items-center bg-White-80'>
             <div className='flex flex-row-reverse items-center justify-center h-full w-[90%] '>
-                <img src={Book} alt='Book' className='w-md' />
-                <div className=' flex flex-col w-2xl gap-3'>
+                <img src={Book} alt='Book' className='Book w-md' />
+                <div className='AboutCurseText flex flex-col w-2xl gap-3'>
                     <h1 className='text-5xl font-bold font-Inter'>Sobre o curso Pixel Power</h1>
                     <div>
                         <div className='flex flex-col gap-4 text-2xl w-xl text-wrap text-justify font-Inria'>
