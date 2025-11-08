@@ -3,7 +3,7 @@ import BaseModule from '../components/Others/Base/BaseModules.jsx'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
 
-export default function Modules() {
+export default function ModulesSec() {
     return (
         <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>

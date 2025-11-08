@@ -2,8 +2,8 @@ import './App.css'
 import Initial from './assets/screens/initial'
 import AboutCurse from './assets/screens/AboutCurse'
 import BuyNow from './assets/screens/BuyNow'
-import Modules from './assets/screens/modules'
 import CurseForMe from './assets/screens/CurseForMe'
+import ModulesSec from './assets/screens/Modules'
 import GenericPage from './assets/screens/GenericPage'
 import NotConvinced from './assets/screens/NotConvinced'
 import TeachPage from './assets/screens/TeachPage'
@@ -17,8 +17,8 @@ function App() {
       <div className='h-screen'>
         <Initial />
         <AboutCurse />
-        <Modules />
         <CurseForMe />
+        <ModulesSec />
         <GenericPage />
         <NotConvinced />
         <TeachPage />
