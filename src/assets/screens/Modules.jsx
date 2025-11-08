@@ -1,5 +1,5 @@
-import { BrushIcon, FlyingHumanIcon, Grid02Icon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
-import BaseModule from '../components/Others/Pop/BaseModules.jsx'
+import { BrushIcon, FlyingHumanIcon, GridIcon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, RubiksCubeIcon, ToolsIcon } from '@hugeicons/core-free-icons'
+import BaseModule from '../components/Others/Base/BaseModules.jsx'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
 
@@ -7,7 +7,7 @@ export default function Modules() {
     return (
         <section className='flex justify-center h-screen w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center justify-center h-full w-[90%] gap-3.5 '>
-                <h1 className='text-5xl font-Inter font-bold'>o que você vai aprender no curso:</h1>
+                <h1 className='ModulesTitle text-5xl font-Inter font-bold'>o que você vai aprender no curso:</h1>
                 <div className="grid grid-cols-[290px_290px_290px_290px] gap-9 justify-center w-full h-full items-center">
                     <BaseModule
                         Text="Aprenda os fundamentos da pixel art: resolução, paleta, grid e leitura visual. A base para qualquer estilo."

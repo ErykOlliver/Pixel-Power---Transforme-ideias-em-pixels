@@ -1,14 +1,14 @@
-import { BrushIcon, Ds3ToolIcon, FilePasteIcon, FlyingHumanIcon, GitbookIcon, Grid02Icon, GridIcon, Joystick01Icon, KeyframeAddIcon, MapsSearchIcon, PaintBoardIcon, ParagraphBulletsPoint01FreeIcons, PencilEdit01Icon, QuillWrite01Icon, RubiksCubeIcon, ToolsIcon, TShirtIcon } from '@hugeicons/core-free-icons'
+import { Ds3ToolIcon, FilePasteIcon, GitbookIcon, Joystick01Icon, PencilEdit01Icon, QuillWrite01Icon, TShirtIcon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Power_Colors } from '../components/Design/Pallet.js'
-import BaseResp from '../components/Others/Pop/BaseResp.jsx'
+import BaseResp from '../components/Others/Base/BaseResp.jsx'
 
 export default function CurseForMe() {
     return (
         <section className='flex justify-center h-fit w-screen items-center bg-White-80'>
             <div className='flex flex-col items-center gap-28 h-full w-[90%] pt-80'>
-                <h1 className='text-5xl font-Inter font-bold'>“Sera que esse curso é para mim?”</h1>
-                <p className='font-Inria font-light text-2xl w-full text-center'>
+                <h1 className='CurseForMeTitle text-5xl font-Inter font-bold'>“Sera que esse curso é para mim?”</h1>
+                <p className='CurseForMeParagraph font-Inria font-light text-2xl w-full text-center'>
                     Se você quer aprender pixel art com técnica, propósito e liberdade criativa, esse curso foi feito para você. <br />
                     Não importa seu nível — aqui você encontra direção e prática para evoluir do seu jeito.
                 </p>
@@ -46,7 +46,7 @@ export default function CurseForMe() {
                         />
                     </div>
                 </div>
-                <p className='font-Inria pb-2.5 pt-2.5 font-light text-2xl w-full text-center'>
+                <p className='GenericText font-Inria pb-2.5 pt-2.5 font-light text-2xl w-full text-center'>
                     <span className='font-bold'> Se você se viu em algum desses perfis, não perca tempo </span>. O Pixel Power pode ser o passo que faltava <br />
                     pra transformar suas ideias em projetos reais.
                 </p>
